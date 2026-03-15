@@ -9,3 +9,11 @@ html{
 body{
     margin: 0;
 }
+
+.container{
+    border: 50px solid red;
+    width: 40dvw;
+    height: 70dvh;
+    border-radius: 10px;
+    background-color: beige;
+}
