@@ -19,4 +19,5 @@ body{
     width: 40dvw;
     height: 70dvh;
     border-radius: 10px;
+    overflow: hidden;
 }
