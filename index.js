@@ -1,4 +1,5 @@
 let container = document.querySelector(".container");
+container.innerHTML = "";
 
 let size = 16;
 
