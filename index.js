@@ -32,3 +32,7 @@ let getSize = ()=>{
     let input = prompt();
     return +input;
 }
+
+btn.addEventListener("click", ()=>{
+    createGrid(getSize());
+});
