@@ -16,10 +16,33 @@ body{
     gap: 1.5em
 }
 
+main{
+    background: red;
+    border-radius: 50px;
+    width: 55dvw;
+    height: 80dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
 .container{
-    border: 50px solid red;
     width: 40dvw;
     height: 70dvh;
+}
+
+button{
+    position: absolute;
+    left: 2em;
+    bottom: 2em;
+    background-color: black;
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
-    overflow: hidden;
+    border: 0;
+    transition: all 150ms ease-out;
+}
+button:active{
+    scale: 0.8;
 }
