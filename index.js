@@ -1,6 +1,5 @@
 let container = document.querySelector(".container");
 let btn = document.querySelector("button");
-container.innerHTML = "";
 
 let size = 16;
 
@@ -28,15 +27,18 @@ function createGrid(size) {
 
 createGrid(size);
 
-let getSize = ()=>{
-    let input = prompt();
-    if (input > 0 && input <= 100){
-        return +input;
-    } else {
-        alert("Please try again, don't input a larger number of 100 grid squares, the results will be caused to your computer resources being used, potentially causing delays, freezing, or crashing that we want to prevent.");
-    }
-}
+let getSize = () => {
+  let input = prompt();
+  if (input > 0 && input <= 100) {
+    return +input;
+  } else {
+    alert(
+      "Please try again, don't input a larger number of 100 grid squares, the results will be caused to your computer resources being used, potentially causing delays, freezing, or crashing that we want to prevent.",
+    );
+  }
+};
 
-btn.addEventListener("click", ()=>{
-    createGrid(getSize());
+btn.addEventListener("click", () => {
+  container.innerHTML = "";
+  createGrid(getSize());
 });
