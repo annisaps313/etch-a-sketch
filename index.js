@@ -5,6 +5,8 @@ for (let i = 0; i < container.clientHeight; i++){
     container.appendChild(row);
     for (let i = 0; i < container.clientWidth; i++){
         let grid = document.createElement("div");
-        
+        grid.style.width = `${size}px`;
+        grid.style.height = `${size}px`;
+        grid.style.background = "beige";
     }
 }
