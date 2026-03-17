@@ -33,7 +33,7 @@ let getSize = () => {
     return +input;
   } else {
     alert(
-      "Please try again, don't input a larger number of 100 grid squares, the results will be caused to your computer resources being used, potentially causing delays, freezing, or crashing that we want to prevent.",
+      "Don't input a larger number than 100 grid squares, the results will used your computer resources, potentially causing delays, freezing, or crashing that we want to prevent.",
     );
   }
 };
