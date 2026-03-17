@@ -26,13 +26,15 @@ function createGrid(size) {
   }
 }
 
-createGrid(size);
-
 let getSize = ()=>{
     let input = prompt();
     return +input;
 }
 
 btn.addEventListener("click", ()=>{
-    createGrid(getSize());
+    if (getSize > 0 && getSize < 100) {
+        createGrid(getSize());
+    } else {
+        alert("Please input a valid number only 1-100");
+    }
 });
