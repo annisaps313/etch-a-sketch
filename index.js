@@ -26,6 +26,8 @@ function createGrid(size) {
   }
 }
 
+createGrid(size);
+
 let getSize = ()=>{
     let input = prompt();
     if (input > 0 && input <= 100){
