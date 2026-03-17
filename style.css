@@ -20,6 +20,6 @@ body{
     border: 50px solid red;
     width: 40dvw;
     height: 70dvh;
-    border-radius: 10px;
+    border-radius: 50px;
     overflow: hidden;
 }
