@@ -2,4 +2,9 @@ let container = document.querySelector(".container");
 
 for (let i = 0; i < container.clientHeight; i++){
     let row = document.createElement("div");
+    container.appendChild(row);
+    for (let i = 0; i < container.clientWidth; i++){
+        let grid = document.createElement("div");
+        
+    }
 }
