@@ -22,3 +22,5 @@ for (let i = 0; i < containerHeight / size; i++){
         });
     }
 }
+
+let btn = document.querySelector("button");
