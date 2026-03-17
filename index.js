@@ -32,9 +32,5 @@ let getSize = ()=>{
 }
 
 btn.addEventListener("click", ()=>{
-    if (getSize > 0 && getSize < 100) {
-        createGrid(getSize());
-    } else {
-        alert("Please input a valid number only 1-100");
-    }
+    createGrid(getSize());
 });
