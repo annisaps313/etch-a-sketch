@@ -1,4 +1,5 @@
 let container = document.querySelector(".container");
+let btn = document.querySelector("button");
 container.innerHTML = "";
 
 let size = 16;
@@ -22,5 +23,3 @@ for (let i = 0; i < containerHeight / size; i++){
         });
     }
 }
-
-let btn = document.querySelector("button");
