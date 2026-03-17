@@ -16,5 +16,9 @@ for (let i = 0; i < containerHeight / size; i++){
         grid.style.height = `${size}px`;
         grid.style.background = "beige";
         row.appendChild(grid);
+
+        grid.addEventListener("mouseover", ()=>{
+            grid.style.background = "grey";
+        });
     }
 }
