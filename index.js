@@ -9,3 +9,10 @@ div.style.background = "beige";
 div.addEventListener("mousemove", ()=>{
     div.style.background = "grey";
 })
+
+let size = 16;
+
+let btn = document.querySelector("button");
+btn.addEventListener("click", ()=>{
+    size = prompt("Add new size");
+})
