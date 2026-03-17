@@ -1,5 +1,7 @@
 let container = document.querySelector(".container");
 
+let size = 16;
+
 for (let i = 0; i < container.clientHeight; i++){
     let row = document.createElement("div");
     container.appendChild(row);
