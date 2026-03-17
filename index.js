@@ -11,5 +11,6 @@ for (let i = 0; i < container.clientHeight; i++){
         grid.style.width = `${size}px`;
         grid.style.height = `${size}px`;
         grid.style.background = "beige";
+        row.appendChild(grid);
     }
 }
