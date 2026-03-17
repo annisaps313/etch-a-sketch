@@ -16,3 +16,6 @@ let btn = document.querySelector("button");
 btn.addEventListener("click", ()=>{
     size = prompt("Add new size");
 })
+
+div.style.width = `${size}px`;
+div.style.height = `${size}px`;
